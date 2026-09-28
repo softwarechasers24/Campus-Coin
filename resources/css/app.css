@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```css
+.income-bar {
+    background: #15945c;
+}
+
+.expense-bar {
+    background: #8fbea1;
+}
+
+.bar-group {
+    position: relative;
+    min-width: 45px;
+}
+
+.bar {
+    width: 18px;
+    border-radius: 4px 4px 0 0;
+    min-height: 2px;
+    display: inline-block;
+    margin: 0 2px;
+}
+```
